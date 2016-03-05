@@ -1,0 +1,4 @@
+Trend Micro, Türkiye'deki küçük ve orta ölçekli işletmelere yönelik yeni Worry-Free Business Security yazılımını pazara sundu. İlk kez Türkçe olarak geliştirilen Worry-Free Business Security 6.0, akıllı tarama ve URL filtreleme gibi yeni özellikleriyle entegre koruma sağlıyor.
+
+Worry-Free Business Security, son Microsoft yamalarına sahip olmayan hassas bilgisayarları tespit ediyor daha sonra tehdit risklerini ölçen program koruma ayarlarını otomatik olarak değiştiriyor. Virüs girmiş bilgisayarlarda ise tehditleri otomatik olarak ortadan kaldırıyor, ve sistem dosyalarını onarıyor.
+Teknoloji konusunda uzman olmayan kullanıcılar için programda, tüm ayarların düzenlenebildiği tek bir konsol da mevcut. Worry-Free Business Security bilgisayara takılan, USB diskleri de otomatik olarak tarıyor.
