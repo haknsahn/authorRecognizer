@@ -17,7 +17,7 @@ class document:
 		return self.tokens
 
 	# Tokenizes the text and constructs 'Bag of Words' representation. 
-	def constructBOW(self):
+	def construct_bow(self):
 		if self.bow is not None:
 			return self.bow
 
