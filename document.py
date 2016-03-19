@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8-*-
-from tokenizer import tokenize
+from tokenizer import tokenize, split_sentence, find_question_mark
+from locale import setlocale, LC_ALL
+setlocale(LC_ALL, 'tr_TR.UTF-8')
 
 class document:
 	def __init__(self, id, author, text):
@@ -27,3 +29,17 @@ class document:
 			self.bow.setdefault(token, 0)
 			self.bow[token] += 1
 		return self.bow
+
+	def count_sentence(self):
+		return len(split_sentence(self.text))
+
+	def compute_word_average(self):
+		sentences = split_sentence(self.text)
+		average = 0
+		for sentence in sentences:
+			average += len(tokenize(sentence))
+		average /= 1.0 * len(sentences)
+		return average
+
+	def count_question_mark(self):
+		return len(find_question_mark(self.text))
