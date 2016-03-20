@@ -13,7 +13,7 @@ def tokenize(text):
 	else:	
 		text = text.decode("utf8").lower().encode("utf8")				# In python2, it is needed to decode UTF-8 characters in order to lower them.
 
-	text = sub("[\"'’`][\wçğıöşü]+(?=[^\wçğıöşü'’`\"])","",text)		# removes additions with apostrophe(',’,`) mark. Ex. İstanbul('un)
+	text = sub("['’`][\wçğıöşü]+(?=[^\wçğıöşü'’`])","",text)			# removes additions with apostrophe(',’,`) mark. Ex. İstanbul('un)
 	text = sub("-","",text)												# removes '-' marks.
 	text = sub("[^\w\d\sçğıöşü]"," ",text)								# substitutes remaining punctuation marks with space(" ").
 	return findall("[\wçğıöşü]{3,}", text)								# finds all words with 3 or more characters.

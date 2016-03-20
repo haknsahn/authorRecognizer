@@ -85,15 +85,14 @@ if __name__ == "__main__":
 		
 	# Read command line args
 	parser = argparse.ArgumentParser(prog="author_recognizer", usage="./author_recognizer.py [options] ... [-r | -ns] [args] ... [training_path, test_path]", description='The script recognizes authors of the given article by using Naive Bayes.')
-	parser.add_argument('-r','--result', action="store_true", help="Prints the result of the recognizer. (If parent directories of the articles are named as authors' names, it gives rational results.)",required=False)
+	parser.add_argument('-r','--result', action="store_false", default="True", help="Prints the result of the recognizer.",required=False)
+	parser.add_argument('-c','--comparison', action="store_true", help="Prints the result of the recognizer with author of the document. (If parent directories of the articles are named as authors' names, it gives rational results. If this is in process, then not prints the results.)",required=False)
 	parser.add_argument('-ns','--nostatistics', action="store_false", help="Does not print the statistics about recognition process.", required=False)
 	parser.add_argument('training_path', nargs="?", default="training_dataset/", metavar='/path/to/training/set', help='Path to training dataset.')
 	parser.add_argument('test_path', nargs="?", default="test_dataset/", metavar='/path/to/test/set', help='Path to test dataset.')
 	args = parser.parse_args()
-	
-	if not args.result:
-		sys.stdout.write("training...")
-		sys.stdout.flush()
+
+	print("training...")
 
 	tot_doc_count = 0
 	author_list = []
@@ -102,14 +101,12 @@ if __name__ == "__main__":
 		tot_doc_count += auth.doc_count
 		author_list.append(auth)
 
-	if not args.result:
-		sys.stdout.write("\nconstructing vocabulary...")
-		sys.stdout.flush()
+	print("constructing vocabulary...")
+
 	vocabulary = construct_vocabulary(author_list)
 
-	if not args.result:
-		sys.stdout.write("\ndetermining the author...")
-		sys.stdout.flush()
+	if not args.result and not args.comparison:
+		print("determining the author...")
 
 	tp_total 	= 0
 	tp_author 	= 0
@@ -126,6 +123,9 @@ if __name__ == "__main__":
 			author_name = os.path.basename(os.path.dirname(doc_path))
 			determined_author_name = determine_author(doc_text, author_list, vocabulary, tot_doc_count)
 
+			if args.result and not args.comparison:
+				print("%-50s : %s%s%s" %(doc_path, HEADER, determined_author_name, ENDC))
+
 			if last_author != "" and last_author != author_name:				
 				macro_ave_precision += 1.0 * tp_author / (tp_author + fp_author)
 				tp_author = 0
@@ -135,24 +135,24 @@ if __name__ == "__main__":
 
 			if author_name == determined_author_name:
 				tp_total += 1 
-				tp_author += 1			
-				sys.stdout.write("%s %-20s : %s %s \n" % (CLEAR, author_name, determined_author_name, ENDC) if args.result else ".")
+				tp_author += 1	
+				sys.stdout.write("%s %-20s : %s %s \n" % (CLEAR, author_name, determined_author_name, ENDC) if args.comparison else ("." if not args.result else ""))
 			else: 
 				fp_total += 1
 				fp_author += 1
-				sys.stdout.write("%s %-20s : %s %s \n" % (FAIL, author_name, determined_author_name, ENDC) if args.result else ".")
+				sys.stdout.write("%s %-20s : %s %s \n" % (FAIL, author_name, determined_author_name, ENDC) if args.comparison else ("." if not args.result else ""))
 
 			last_author = author_name
 			sys.stdout.flush()
 
-	if not args.result:
+	if not args.result and not args.comparison:
 		sys.stdout.write("\ndone.\n")
 
 	macro_ave_precision += 1.0 * tp_author / (tp_author + fp_author)
 	macro_ave_precision /= (author_cnt+1)
 	micro_ave_precision = 1.0 * tp_total / (tp_total + fp_total)
 	if args.nostatistics:
-		print(94 * "-")
+		print("\n" + 94 * "-")
 		print("|%s|%s|%s|" %(30 * " ", "{:^30}".format("Micro-averaged"), "{:^30}".format("Macro-averaged")))
 		print(94 * "-")
 		print("|%s|%s|%s|" %("{:^30}".format("Recall"),"{:^30.2f}".format(micro_ave_precision), "{:^30.2f}".format(macro_ave_precision)))

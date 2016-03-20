@@ -18,11 +18,13 @@ One needs to extract the training and test sets from given dataset by using `dat
 
 Once the training and test sets are ready, the one thing needs to be done is to run `author_recognizer.py` script (Both python2 and python3 can be used.).
 
-`python author_recognizer.py [-r| -ns] training_path test_path`
+`python author_recognizer.py [-r| -c | -ns] training_path test_path`
 
 There are two optional and two positional arguments :
 
--r (result) 		: Prints the result of the recognizer. (If parent directories of the articles are named as authors' names, it gives rational results.)
+-r (result) 		: Does not prints the results of the recognizer.
+
+-c(comparison)		: Prints the results of the recognizer with authors of the document. (If parent directories of the articles are named as authors' names, it gives rational results. If this is in process, then does not print the results.)
 
 -ns (nostatistics) 	: Does not print the statistics about recognition process.
 
