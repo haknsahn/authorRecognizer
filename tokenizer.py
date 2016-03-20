@@ -22,5 +22,8 @@ def tokenize(text):
 def split_sentence(text):
 	return findall("(?=[A-Z0-9ÇĞİÖŞÜ“])(?:.|\n)*?[.!?:](?![.!?'\"”0-9])",text)
 
-def find_question_mark(text):
+def find_quatation_mark(text):
+	return findall("\"",text)
+
+def find_exclamation_mark(text):
 	return findall("!",text)

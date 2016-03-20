@@ -13,7 +13,8 @@ class author:
 		self.tot_token_count = 0
 		self.ave_sentence_count = 0
 		self.ave_words_in_sentence = 0
-		self.ave_question_mark = 0
+		self.ave_quatation_mark = 0
+		self.ave_exclamation_mark = 0
 
 	def compute_tot_token_count(self):
 		for count in self.vocabulary.values():
@@ -32,13 +33,20 @@ class author:
 	def compute_ave_words_in_sentence(self):
 		total_ave_word = 0
 		for doc in self.doc_list:
-			total_ave_word += doc.compute_word_average()
+			total_ave_word += doc.compute_ave_words_in_sentence()
 		self.ave_words_in_sentence = 1.0 * total_ave_word / self.doc_count
 		return self.ave_words_in_sentence
 
-	def compute_ave_question_mark(self):
-		total_question_mark = 0
+	def compute_ave_quatation_mark(self):
+		total_quatation_mark = 0
 		for doc in self.doc_list:
-			total_question_mark += doc.count_question_mark()
-		self.ave_question_mark = 1.0 * total_question_mark / self.doc_count
-		return self.ave_question_mark
+			total_quatation_mark += doc.count_quatation_mark()
+		self.ave_quatation_mark = 1.0 * total_quatation_mark / self.doc_count
+		return self.ave_quatation_mark
+
+	def compute_ave_exclamation_mark(self):
+		total_exclamation_mark = 0
+		for doc in self.doc_list:
+			total_exclamation_mark += doc.count_exclamation_mark()
+		self.ave_exclamation_mark = 1.0 * total_exclamation_mark / self.doc_count
+		return self.ave_exclamation_mark

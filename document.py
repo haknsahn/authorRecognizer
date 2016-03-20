@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8-*-
-from tokenizer import tokenize, split_sentence, find_question_mark
+import tokenizer
 from locale import setlocale, LC_ALL
 setlocale(LC_ALL, 'tr_TR.UTF-8')
 
@@ -11,11 +11,15 @@ class document:
 		self.text = text
 		self.tokens = None
 		self.bow = None
+		self.sentence_count = 0
+		self.ave_words_in_sentence = 0
+		self.quatation_mark_count = 0
+		self.exclamation_mark_count = 0
 
 	# Tokenizes the text.
 	def tokenize(self):
 		if self.tokens is None:
-			self.tokens = tokenize(self.text)
+			self.tokens = tokenizer.tokenize(self.text)
 		return self.tokens
 
 	# Tokenizes the text and constructs 'Bag of Words' representation. 
@@ -31,15 +35,21 @@ class document:
 		return self.bow
 
 	def count_sentence(self):
-		return len(split_sentence(self.text))
+		self.sentence_count = len(tokenizer.split_sentence(self.text))
+		return self.sentence_count
 
-	def compute_word_average(self):
-		sentences = split_sentence(self.text)
+	def compute_ave_words_in_sentence(self):
+		sentences = tokenizer.split_sentence(self.text)
 		average = 0
 		for sentence in sentences:
-			average += len(tokenize(sentence))
-		average /= 1.0 * len(sentences)
-		return average
+			average += len(tokenizer.tokenize(sentence))
+		self.ave_words_in_sentence = 1.0 * average / len(sentences)
+		return self.ave_words_in_sentence
 
-	def count_question_mark(self):
-		return len(find_question_mark(self.text))
+	def count_quatation_mark(self):
+		self.quatation_mark_count = len(tokenizer.find_quatation_mark(self.text))
+		return self.quatation_mark_count
+
+	def count_exclamation_mark(self):
+		self.exclamation_mark_count = len(tokenizer.find_exclamation_mark(self.text))
+		return self.exclamation_mark_count
