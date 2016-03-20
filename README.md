@@ -20,20 +20,21 @@ Once the training and test sets are ready, the one thing needs to be done is to 
 
 `python author_recognizer.py [-r| -c | -ns] training_path test_path`
 
-There are two optional and two positional arguments :
-
+There are three optional and two positional arguments :
+```
 -r (result) 		: Does not prints the results of the recognizer.
 
--c(comparison)		: Prints the results of the recognizer with authors of the document. (If parent directories of the articles are named as authors' names, it gives rational results. If this is in process, then does not print the results.)
+-c (comparison)		: Prints the results of the recognizer with authors of the document. (If parent directories of the articles are named as authors' names, it gives rational results. If this is in process, then does not print the results.)
 
 -ns (nostatistics) 	: Does not print the statistics about recognition process.
 
+
 training_path 		: Path to training dataset.
 
-test_path		: Path to test dataset.
-
+test_path		    : Path to test dataset.
+```
 ex.
 
-`python author_recognizer.py -r training_dataset test_dataset`
+`python author_recognizer.py -c -ns training_dataset test_dataset`
 
 If path to training or test datasets are not given, ’training_dataset/’ and ‘test_dataset’ are used as default. On the other hand, if one wants to give the paths, it is essential to write them in the given order.
