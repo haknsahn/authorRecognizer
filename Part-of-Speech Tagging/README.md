@@ -23,6 +23,9 @@ Optional arguments :
 
 --postag : Constructs the model by using postag.
 ```
+ex. 
+
+`python train_hmm_tagger.py --cpostag ./training_file.conll`
 
 (There is no need to do this part in case of having a model file with name "hmm_model".)
 
