@@ -1,7 +1,7 @@
 Öteleme : Noun
-işleminde : Noun
+işleminde : Punc
 kuyrukta : Punc
-bekleyen : Adj
+bekleyen : APresPart
 eleman : Noun
 yığına : Noun
 itilir : Punc
@@ -10,25 +10,25 @@ itilir : Punc
 Bu : Det
 işlemlerin : Noun
 her : Det
-birinde : Noun
+birinde : Zero
 ilişkiler : Noun
 yığının : Noun
 en : Adv
 üstünde : Noun
-yer_alan : Adj
+yer_alan : APresPart
 sözcük : Noun
 ile : Conj
 kuyruğun : Noun
 en : Adv
 başında : Noun
-yer_alan : Adj
+yer_alan : APresPart
 sözcük : Noun
 arasında : Noun
 kurulmaktadır : Noun
 . : Punc
 
 Ayrıştırma : Noun
-modeli : Noun
+modeli : Punc
 , : Punc
 yığının : Noun
 en : Adv
@@ -37,22 +37,22 @@ ve : Conj
 kuyruğun : Noun
 en : Adv
 başında : Noun
-bulunan : Adj
+bulunan : APresPart
 elemanların : Noun
 özelliklerine : Noun
 bakarak : Adv
 bir : Det
 sonraki : Adj
 hareketin : Noun
-ne : Pron
-olacağına : Noun
+ne : QuesP
+olacağına : Verb
 karar_verir : Punc
 . : Punc
 
 Bu : Det
 karar : Noun
 sırasında : Noun
-kullanılan : Adj
+kullanılan : APresPart
 özellikler : Noun
 ilgili : Noun
 elemanın : Noun
@@ -65,18 +65,18 @@ bilgisi : Noun
 o : Det
 ana : Noun
 kadar : Postp
-yapılan : Adj
+yapılan : APresPart
 işlemler : Noun
 sonucunda : Noun
-kendisine : Pron
+kendisine : ReflexP
 bağlanmış : Noun
-olan : Adj
+olan : APresPart
 bağımlı : Adj
 elemanların : Noun
 özellikleri : Noun
 veya : Conj
 komşularının : Noun
-özellikleri : Noun
+özellikleri : Punc
 olabilir : Verb
 . : Punc
 
@@ -91,12 +91,12 @@ ve : Conj
 çekim : Noun
 eklerinden : Noun
 dolayı : Postp
-oluşan : Adj
+oluşan : APresPart
 sahip_başta : Noun
 türünde : Noun
 bağlılıkları : Punc
-bulmaya : Noun
-çalışır : Noun
+bulmaya : NInf
+çalışır : Verb
 . : Punc
 
 Birden : Adv
@@ -106,7 +106,7 @@ grubuna : Noun
 sahip_olan : Noun
 sözcükler : Noun
 içerisinde : Noun
-yer_alan : Adj
+yer_alan : APresPart
 çekim : Noun
 gruplarının : Noun
 , : Punc
@@ -115,7 +115,7 @@ sözcük : Noun
 içerisinde : Noun
 sağ : Adj
 taraflarında : Noun
-yer_alan : Adj
+yer_alan : APresPart
 ilk : Adj
 çekim : Noun
 grubuna : Noun
@@ -129,7 +129,7 @@ tip : Noun
 bağlılıklar : Noun
 başarım : Punc
 ölçümünde : Noun
-puanlanmazlar : Noun
+puanlanmazlar : Punc
 . : Punc
 
 Bu : Det
@@ -164,7 +164,7 @@ reddediyoruz : Noun
 . : Punc
 
 Ama : Conj
-ben : Pron
+ben : PersP
 bütün : Adj
 olaylara : Noun
 pozitif : Noun
@@ -172,32 +172,32 @@ bakıyorum : Verb
 . : Punc
 
 Başarılı : Noun
-olmaya : Verb
+olmaya : NInf
 şartlandım : Punc
 . : Punc
 
 Başarısız : Noun
-olmak : Noun
+olmak : NInf
 , : Punc
 zarara : Noun
-uğramak : Noun
+uğramak : Punc
 düşüncesi : Punc
 hayatımda : Noun
 yazmıyor : Noun
 . : Punc
 
 Fabrikayı : Noun
-yapacak : Verb
-olan : Adj
+yapacak : AFutPart
+olan : APresPart
 , : Punc
 ekonomik : Adj
 faaliyetleri : Noun
 gerçekleştirecek : Noun
-olan : Adj
+olan : APresPart
 , : Punc
 üretim : Noun
-yapacak : Verb
-olan : Adj
+yapacak : AFutPart
+olan : APresPart
 firmalardır : Noun
 . : Punc
 
@@ -206,7 +206,7 @@ dünyanın : Noun
 küçücük : Adj
 bir : Det
 mekan : Noun
-olduğunu : Noun
+olduğunu : NPastPart
 , : Punc
 küreselleşen : Noun
 dünyada : Noun
@@ -227,13 +227,13 @@ Konunun : Noun
 ilk : Adj
 kez : Noun
 gündeme : Noun
-geldiği : Adj
+geldiği : APastPart
 andan : Noun
 itibaren : Postp
-Arjantin : Noun
+Arjantin : Verb
 makamları : Punc
 nezdinde : Noun
-gerçekleştirdiğimiz : Noun
+gerçekleştirdiğimiz : Punc
 müteaddit : Punc
 girişimlerimizde : Noun
 , : Punc
@@ -250,25 +250,25 @@ vurgulanmıştı : Noun
 . : Punc
 
 İşletmenin : Noun
-pazarı : Noun
-ne : Pron
+pazarı : Punc
+ne : QuesP
 kadar : Postp
-büyükse : Noun
+büyükse : Verb
 gücünün : Noun
 de : Conj
 o : Det
 kadar : Postp
 büyük : Adj
-olacağını : Noun
+olacağını : NFutPart
 anlattı : Verb
 . : Punc
 
 Şunu : Noun
-bilmemiz : Noun
+bilmemiz : Punc
 gerekiyor : Verb
 ki : Conj
-küreselleşme : Noun
-dediğimiz : Noun
+küreselleşme : NInf
+dediğimiz : Verb
 hadise : Punc
 bir : Det
 kabul : Noun
@@ -279,9 +279,9 @@ değildir : Verb
 
 Zaman : Noun
 zaman : Noun
-küreselleşme : Noun
+küreselleşme : NInf
 etrafında : Noun
-tartışmalar : Noun
+tartışmalar : NInf
 yapılır : Verb
 . : Punc
 
@@ -299,11 +299,11 @@ söylüyor : Verb
 Kalabalıktaki : Noun
 insanlar : Noun
 da : Conj
-onu : Pron
+onu : PersP
 dinlermiş : Noun
 . : Punc
 
-Bizim : Pron
+Bizim : PersP
 Keloğlan : Noun
 da : Conj
 kalabalığa : Noun
@@ -322,11 +322,11 @@ biriymiş : Punc
 . : Punc
 
 Keloğlan'ın : Noun
-dinlemekte : Noun
-olduğu : Adj
+dinlemekte : Punc
+olduğu : APastPart
 tellal : Noun
 şöyle : Adv
-demekteydi : Noun
+demekteydi : Verb
 . : Punc
 
 Uykusunu : Noun
@@ -335,27 +335,27 @@ türlü : Noun
 alamayan : Noun
 eşeğin : Punc
 gönlünü : Noun
-almak : Noun
+almak : NInf
 için : Postp
 çeşitli : Adj
 komiklikler : Noun
 yapar : Verb
 , : Punc
-ona : Pron
+ona : PersP
 şeker : Noun
 verir : Verb
 , : Punc
 sağrısını : Noun
-sıvazlarmış : Noun
+sıvazlarmış : Punc
 . : Punc
 
-İki : Num
+İki : Card
 gözü : Noun
-iki : Num
+iki : Card
 çeşme : Noun
 , : Punc
 öksürüp : Noun
-aksırarak : Noun
+aksırarak : Punc
 , : Punc
 derdini : Noun
 anlatamadan : Adv
@@ -373,7 +373,7 @@ dünyaya : Noun
 açıktır : Verb
 . : Punc
 
-İki : Num
+İki : Card
 bitkin : Noun
 yolcu : Noun
 konuşa : Punc
@@ -384,8 +384,8 @@ gelmişler : Verb
 . : Punc
 
 İnce : Adj
-duygulu : Noun
-eşek : Noun
+duygulu : Zero
+eşek : Punc
 , : Punc
 sahibinin : Noun
 başında : Noun
@@ -397,7 +397,7 @@ ağlamış : Noun
 Kız : Noun
 , : Punc
 padişaha : Noun
-buyur_etmiş : Noun
+buyur_etmiş : Punc
 . : Punc
 
 Vezir : Noun
@@ -407,27 +407,27 @@ berabermiş : Noun
 
 Padişahla : Noun
 kız : Noun
-konuşmaya : Noun
-başlamışlar : Noun
+konuşmaya : NInf
+başlamışlar : Verb
 . : Punc
 
 Aman : Interj
 padişahım : Punc
 , : Punc
-bana : Pron
-üç : Num
+bana : PersP
+üç : Card
 gün : Noun
 izin_ver : Noun
 , : Punc
 diye : Postp
-yalvarmış : Noun
+yalvarmış : Verb
 . : Punc
 
 Bir : Det
 gün : Noun
 düşünmüş : Verb
 , : Punc
-iki : Num
+iki : Card
 gün : Noun
 düşünmüş : Verb
 , : Punc
@@ -445,7 +445,7 @@ gün : Noun
 padişahla : Noun
 konuştuğunuz : Punc
 sözlerin : Noun
-manasını : Noun
+manasını : Punc
 bilmezsem : Punc
 başım : Noun
 uçacak : Noun
@@ -454,26 +454,26 @@ uçacak : Noun
 Aman : Interj
 kızım : Noun
 , : Punc
-bana : Pron
+bana : PersP
 söyle : Verb
-şunları : Pron
+şunları : DemonsP
 . : Punc
 
 Anlatırım : Verb
 ama : Conj
 her : Det
-biri : Noun
+biri : Zero
 için : Postp
-yüz : Num
+yüz : Card
 altın : Adj
 isterim : Verb
 . : Punc
 
-O : Pron
+O : PersP
 gün : Noun
 her : Det
 nasılsa : Adv
-domuzun : Noun
+domuzun : Verb
 biri : Pron
 yolunu : Noun
 şaşırmış : Adj
@@ -489,7 +489,7 @@ bir : Det
 köpek : Noun
 domuzu : Noun
 tutup : Adv
-boğmuş : Noun
+boğmuş : Verb
 . : Punc
 
 Domuz : Noun
@@ -515,7 +515,7 @@ ziyafete : Noun
 . : Punc
 
 Tilki : Noun
-dereden : Noun
+dereden : Punc
 suyu : Noun
 almış : Verb
 , : Punc
@@ -524,7 +524,7 @@ vermiş : Verb
 . : Punc
 
 Tarladan : Noun
-mısırı : Noun
+mısırı : Punc
 almış : Verb
 , : Punc
 tavuklara : Noun
@@ -540,7 +540,7 @@ vermiş : Verb
 . : Punc
 
 Kuyumcudan : Noun
-inci : Noun
+inci : Punc
 almış : Verb
 , : Punc
 kızlara : Noun
@@ -548,12 +548,12 @@ vermiş : Verb
 . : Punc
 
 Kızlarla : Noun
-çayırda : Noun
+çayırda : Punc
 oynamışlar : Punc
 . : Punc
 
 Deve : Noun
-kurban_etmeyen : Noun
+kurban_etmeyen : Punc
 bir : Det
 kültür : Noun
 örneği : Noun
@@ -561,7 +561,7 @@ vereceğim : Verb
 . : Punc
 
 Çayırdan : Noun
-otu : Noun
+otu : Punc
 almış : Verb
 , : Punc
 koyuna : Noun
@@ -577,7 +577,7 @@ vermiş : Verb
 . : Punc
 
 Nineden : Noun
-kuyruğunu : Noun
+kuyruğunu : Punc
 almış : Verb
 , : Punc
 yorgun : Adj
@@ -601,16 +601,16 @@ Bu : Det
 kız : Noun
 o : Det
 kadar : Postp
-tembelmiş : Noun
+tembelmiş : Verb
 ki : Conj
 yerinden : Noun
-kalkmaya : Noun
-üşeniyormuş : Noun
+kalkmaya : NInf
+üşeniyormuş : Verb
 . : Punc
 
 Anası : Noun
 babası : Noun
-ona : Pron
+ona : PersP
 bir : Det
 gelberi : Noun
 yaptırmış : Noun
@@ -618,7 +618,7 @@ yaptırmış : Noun
 
 Kız : Noun
 da : Conj
-oturduğu : Adj
+oturduğu : APastPart
 yerden : Noun
 işini : Noun
 gelberiyle : Noun
@@ -640,14 +640,14 @@ evlendirmiş : Noun
 . : Punc
 
 Bildirilen : Noun
-üç : Num
+üç : Card
 adayla : Noun
 birlikte : Postp
 artık : Adv
 aralarından : Noun
-birini : Noun
-seçmek : Noun
-bize : Pron
+birini : Zero
+seçmek : Punc
+bize : PersP
 bırakılmıştı : Noun
 . : Punc
 
@@ -664,14 +664,14 @@ türlü : Adj
 kanıtlardan : Noun
 faydalanan : Noun
 , : Punc
-bunları : Pron
+bunları : DemonsP
 bilimsel : Adj
 biçimde : Noun
-inceleyen : Adj
+inceleyen : APresPart
 gazete : Noun
 ve : Conj
 dergi : Noun
-yazılarına : Noun
+yazılarına : Punc
 makale : Noun
 denir : Verb
 . : Punc
@@ -707,7 +707,7 @@ kullanılır : Noun
 Gazete : Noun
 ve : Conj
 dergilerdeki : Noun
-makalelerse : Noun
+makalelerse : Punc
 , : Punc
 geniş : Adj
 halk : Noun
@@ -721,10 +721,10 @@ daha : Adv
 açık : Adj
 , : Punc
 daha : Adv
-popüler : Noun
+popüler : Verb
 ve : Conj
 daha : Adv
-anlaşılır : Noun
+anlaşılır : Verb
 bir : Det
 düzeyde : Noun
 tutar : Verb
@@ -738,19 +738,19 @@ kaçınır : Punc
 Gazete : Noun
 ve : Conj
 dergilerde : Noun
-yayımlanan : Adj
+yayımlanan : APresPart
 güncel : Noun
 , : Punc
 siyasal : Adj
 , : Punc
 toplumsal : Adj
 sorunları : Noun
-ele_alan : Adj
+ele_alan : APresPart
 yazılardır : Noun
 . : Punc
 
 Gülmece : Noun
-nitelikli : Noun
+nitelikli : Punc
 fıkralar : Punc
 da : Conj
 olmakla : Noun
@@ -759,26 +759,26 @@ yazılı : Adj
 kompozisyon : Noun
 türü : Noun
 olarak : Adv
-fıkra : Noun
+fıkra : Verb
 , : Punc
 düşünsel : Adj
-ağırlıklı : Noun
+ağırlıklı : Zero
 kısa : Adj
 yazılardır : Noun
 . : Punc
 
 Edebi : Noun
-türlerin : Noun
+türlerin : Punc
 tümü : Pron
 gibi : Postp
-deneme : Noun
+deneme : NInf
 için : Postp
 de : Conj
 bir : Det
 tanım : Noun
-vermek : Noun
+vermek : NInf
 çok : Adv
-güçtür : Noun
+güçtür : Verb
 . : Punc
 
 Deneme : Noun
@@ -788,7 +788,7 @@ bütün : Adj
 yazı : Noun
 türlerine : Noun
 doğru : Postp
-yayılma : Noun
+yayılma : Verb
 göstermektedir : Verb
 . : Punc
 
@@ -797,7 +797,7 @@ türler : Noun
 içinde : Noun
 en : Adv
 çok : Adv
-eleştiriyle : Noun
+eleştiriyle : Verb
 bir : Det
 arada : Noun
 anıldığı : Noun
@@ -808,23 +808,23 @@ Ancak : Conj
 burada : Noun
 söz : Noun
 konusu : Noun
-olan : Adj
+olan : APresPart
 daha : Adv
 çok : Adv
-izlenimsel : Noun
+izlenimsel : Verb
 eleştiridir : Punc
 . : Punc
 
 Psikolojik : Noun
-danışmanımız : Noun
-olan : Adj
+danışmanımız : Punc
+olan : APresPart
 kurumun : Noun
 uzmanları : Noun
 da : Conj
-bizim : Pron
+bizim : PersP
 seçimimiz : Noun
 için : Postp
-katkıda_bulundu : Noun
+katkıda_bulundu : Verb
 . : Punc
 
 Bir : Det
@@ -846,14 +846,14 @@ göz : Noun
 seren : Noun
 yazı : Noun
 türlerine : Noun
-inceleme : Noun
+inceleme : NInf
 denir : Verb
 . : Punc
 
 Her : Det
 obje : Noun
 bir : Det
-inceleme : Noun
+inceleme : NInf
 konusu : Noun
 olabilir : Verb
 . : Punc
@@ -863,7 +863,7 @@ Böyle : Adv
 bir : Det
 görevin : Noun
 başına : Noun
-getirilen : Adj
+getirilen : APresPart
 kişi : Noun
 , : Punc
 eski : Adj
@@ -884,34 +884,34 @@ olabilir : Verb
 . : Punc
 
 Netameli : Noun
-uçaklardan : Noun
+uçaklardan : Punc
 sonuncusunun : Punc
 iade_edilişiyle : Noun
 birlikte : Postp
 , : Punc
 deve : Noun
-kurban_eden : Noun
+kurban_eden : Punc
 ve : Conj
 kanlı : Adj
 deve : Noun
 parçalarıyla : Noun
 personele : Punc
 fotoğraflar : Noun
-çektirten : Noun
+çektirten : Punc
 kişi : Noun
 , : Punc
 başka : Adj
 nasıl : Adv
-biri : Pron
+biri : Zero
 olabilir : Verb
 ? : Punc
 
 Merkez_Bankası'nın : Noun
-bilançosunun : Noun
+bilançosunun : Punc
 ayrıntılarını : Punc
 daha : Adv
 önce : Adv
-irdelemiştim : Noun
+irdelemiştim : Verb
 . : Punc
 
 Bu : Det
@@ -938,7 +938,7 @@ kaldı : Verb
 . : Punc
 
 Merkez_Bankası : Noun
-borçlanma : Noun
+borçlanma : NInf
 yerine : Noun
 elindeki : Adj
 Hazine : Noun
@@ -946,26 +946,26 @@ tahvillerini : Noun
 piyasaya : Noun
 satabilseydi : Noun
 , : Punc
-borçlanma : Noun
+borçlanma : NInf
 yoluyla : Noun
-çektiği : Adj
+çektiği : APastPart
 parayı : Noun
 elindeki : Adj
 tahvillerden : Noun
 kurtularak : Noun
 geri : Adv
-çekebilirdi : Noun
+çekebilirdi : Verb
 . : Punc
 
 Tahvillerin : Noun
 piyasada : Noun
 alış : Noun
 verişi : Punc
-olmayan : Adj
+olmayan : APresPart
 özel : Adj
 tahviller : Noun
-olması : Noun
-Merkez_Bankası'nın : Noun
+olması : NInf
+Merkez_Bankası'nın : Verb
 elini_kolunu : Punc
 bağladı : Noun
 . : Punc
@@ -976,17 +976,17 @@ fiyat : Noun
 artışları : Noun
 ve : Conj
 ekonomik : Adj
-büyüme : Noun
+büyüme : NInf
 sonucunda : Noun
 Merkez_Bankası'nın : Noun
-borçlanma : Noun
+borçlanma : NInf
 durumunda : Noun
-olduğu : Adj
+olduğu : APastPart
 paraya : Noun
-talep_artıp : Noun
+talep_artıp : Punc
 Merkez_Bankası : Noun
 giderek : Adv
-piyasadan : Noun
+piyasadan : Verb
 daha : Adv
 az : Adv
 borçlanabilirdi : Noun
@@ -1009,10 +1009,10 @@ başlamıştı : Verb
 
 Merkez_Bankası : Noun
 giderek : Adv
-piyasadan : Noun
+piyasadan : Verb
 daha : Adv
 az : Adv
-borçlanmaya : Noun
+borçlanmaya : NInf
 başlamıştı : Verb
 . : Punc
 
@@ -1029,7 +1029,7 @@ kez : Noun
 , : Punc
 " : Punc
 döviz : Noun
-kurlarında : Noun
+kurlarında : Punc
 oynaklığın : Punc
 azaltılması : Noun
 " : Punc
@@ -1039,9 +1039,9 @@ Merkez_Bankası : Noun
 kurlar : Noun
 düşmesin : Punc
 diye : Postp
-döviz : Noun
+döviz : Verb
 kurlarına : Punc
-müdahale_etmek : Noun
+müdahale_etmek : NInf
 zorunda_kaldı : Verb
 . : Punc
 
@@ -1062,27 +1062,27 @@ değildir : Verb
 . : Punc
 
 Bilançosunda : Noun
-esnekliğin : Noun
-olmaması : Noun
-Merkez_Bankası'nın : Noun
+esnekliğin : Punc
+olmaması : NInf
+Merkez_Bankası'nın : Verb
 döviz : Punc
 alımları : Noun
 yoluyla : Noun
-çıkardığı : Adj
+çıkardığı : APastPart
 parayı : Noun
 yeniden : Adv
-borçlanmak : Noun
+borçlanmak : Verb
 durumunda_bıraktı : Punc
 . : Punc
 
 Grafikte : Noun
 , : Punc
 Merkez_Bankası'nın : Noun
-döviz : Noun
+döviz : Punc
 pozisyonu : Punc
 ( : Punc
 döviz : Noun
-varlıkları : Noun
+varlıkları : Punc
 ile : Conj
 döviz : Noun
 üzerinden : Noun
@@ -1124,10 +1124,10 @@ yılının : Noun
 eylül : Noun
 ayından : Noun
 sonra : Postp
-paralellik : Noun
+paralellik : Verb
 çok : Adv
 daha : Adv
-güçlenmiştir : Noun
+güçlenmiştir : Verb
 . : Punc
 
 Merkez_Bankası : Noun
@@ -1136,20 +1136,20 @@ anlamda : Noun
 bir : Det
 " : Punc
 para : Noun
-kurulu : Adj
+kurulu : Noun
 " : Punc
 gibi : Postp
-çalışmaya : Noun
+çalışmaya : NInf
 başlamıştır : Verb
 . : Punc
 
 Yani : Conj
 , : Punc
 yalnızca : Adv
-döviz : Noun
+döviz : Verb
 karşılığı : Punc
 para : Noun
-çıkaran : Adj
+çıkaran : APresPart
 bir : Det
 kurum : Noun
 durumundadır : Noun
@@ -1163,17 +1163,17 @@ dönem : Noun
 devam_etmesi : Noun
 , : Punc
 döviz : Noun
-kurlarının : Noun
-nerede : Pron
-olmasını : Noun
-istemenize : Noun
+kurlarının : Punc
+nerede : QuesP
+olmasını : NInf
+istemenize : Verb
 bağlı_olarak : Punc
 , : Punc
 enflasyon : Noun
 hedeflemesinin : Noun
 rafa : Punc
-kaldırılması : Noun
-mecburiyetini : Noun
+kaldırılması : NInf
+mecburiyetini : Verb
 doğurur : Punc
 . : Punc
 
@@ -1185,7 +1185,7 @@ kaygısıyla : Noun
 Merkez_Bankası'nın : Noun
 para : Noun
 basıp : Noun
-bastığı : Adj
+bastığı : APastPart
 parayı : Noun
 borçlanması : Noun
 uygulaması : Punc
@@ -1213,18 +1213,18 @@ Biri : Pron
 olursa : Verb
 , : Punc
 diğerinden : Noun
-vazgeçmek : Noun
+vazgeçmek : Punc
 zorunda_kalacağız : Punc
 . : Punc
 
 Döviz : Noun
-girişi : Noun
+girişi : Punc
 devam_ettiği : Punc
 halde : Noun
 döviz : Noun
 kurlarının : Punc
 artmasını : Noun
-arzulayanların : Noun
+arzulayanların : Punc
 konunun : Punc
 bu : Det
 tarafını : Noun
@@ -1243,9 +1243,9 @@ değildir : Verb
 . : Punc
 
 Hazine'ye : Noun
-2001 : Noun
+2001 : Punc
 yılında : Noun
-verilen : Adj
+verilen : APresPart
 krediler : Noun
 bu : Det
 yıldan : Noun
@@ -1261,7 +1261,7 @@ aşamada : Noun
 bilanço : Noun
 esnekliği : Punc
 döviz : Noun
-pozisyonu : Noun
+pozisyonu : Punc
 ile : Conj
 açık : Adj
 piyasa : Noun
@@ -1272,19 +1272,19 @@ borçlanması : Punc
 ya_da : Conj
 piyasaya : Noun
 borç : Noun
-vermesi : Noun
+vermesi : NInf
 yoluyla : Noun
 olabiliyor : Verb
 . : Punc
 
 2001 : Noun
-yılından : Noun
+yılından : Punc
 bu : Det
 yana : Noun
 Merkez_Bankası : Noun
 para : Noun
 piyasasından : Noun
-bastığı : Adj
+bastığı : APastPart
 parayı : Noun
 borçlanıyor : Noun
 . : Punc
@@ -1292,7 +1292,7 @@ borçlanıyor : Noun
 " : Punc
 Borçlanacaksa : Noun
 , : Punc
-neden : Pron
+neden : QuesP
 parayı : Noun
 basıyor : Noun
 ? : Punc
@@ -1336,9 +1336,9 @@ yok : Verb
 Aynı : Adj
 kalmayan : Noun
 şeyler : Noun
-bizim : Pron
+bizim : PersP
 gibi : Postp
-ekonomileri : Noun
+ekonomileri : Verb
 olumsuz : Adj
 etkileyebilecektir : Noun
 . : Punc
@@ -1361,7 +1361,7 @@ enflasyon : Noun
 tehdidinin : Noun
 azaldığı : Noun
 beklentisiyle : Punc
-Amerika'da : Noun
+Amerika'da : Prop
 faiz : Noun
 artışlarının : Noun
 sonuna : Noun
@@ -1369,17 +1369,17 @@ gelindiği : Noun
 düşünülüyor : Verb
 . : Punc
 
-Buna : Pron
+Buna : DemonsP
 karşılık : Noun
 , : Punc
-Avrupa : Noun
+Avrupa : Prop
 ekonomileri : Noun
-canlanma : Punc
-sinyalleri : Noun
+canlanma : Noun
+sinyalleri : Punc
 veriyor : Verb
 . : Punc
 
-Avrupa'da : Noun
+Avrupa'da : Prop
 faiz : Noun
 artırımlarının : Noun
 devam_edeceği : Punc
@@ -1387,16 +1387,16 @@ bekleniyor : Verb
 . : Punc
 
 Faiz : Noun
-paritesinin : Noun
+paritesinin : Punc
 yeniden : Adv
-Avrupa : Noun
+Avrupa : Prop
 yönünde : Noun
 değişeceği : Noun
 beklentisiyle : Punc
 Euro : Noun
 ve : Conj
 diğer : Adj
-Avrupa : Noun
+Avrupa : Prop
 paraları : Noun
 dolara : Noun
 karşı : Postp
@@ -1415,7 +1415,7 @@ oluyor : Verb
 . : Punc
 
 Amerikan : Noun
-doları : Noun
+doları : Punc
 dünya : Noun
 ödemeler : Noun
 sisteminde : Noun
@@ -1435,7 +1435,7 @@ bir : Det
 bölümünü : Noun
 dolar : Noun
 olarak : Adv
-tutarlar : Noun
+tutarlar : Verb
 . : Punc
 
 Doların : Noun
@@ -1443,7 +1443,7 @@ değer : Noun
 kaybetmesi : Noun
 ülkelerin : Punc
 döviz : Noun
-rezervlerinin : Noun
+rezervlerinin : Punc
 reel : Adj
 olarak : Adv
 değer : Noun
@@ -1455,7 +1455,7 @@ Son : Adj
 günlerde : Noun
 Amerikan : Noun
 doları : Punc
-Avrupa : Noun
+Avrupa : Prop
 paralarına : Noun
 göre : Postp
 hızla : Noun
@@ -1465,7 +1465,7 @@ yitiriyor : Noun
 
 Dünyada : Noun
 ticareti : Noun
-yapılan : Adj
+yapılan : APresPart
 birçok : Det
 hammadde : Noun
 Amerikan : Noun
@@ -1494,8 +1494,8 @@ anlamına_gelir : Punc
 . : Punc
 
 Hammadde : Noun
-üreticisi : Noun
-olmayan : Adj
+üreticisi : Punc
+olmayan : APresPart
 ülkelerin : Noun
 üretim : Noun
 maliyetleri : Noun
@@ -1515,15 +1515,15 @@ başlarlar : Verb
 . : Punc
 
 Hammadde : Noun
-fiyatlamalarının : Noun
+fiyatlamalarının : Punc
 değeri : Noun
 giderek : Adv
-artan : Adj
+artan : APresPart
 bir : Det
 başka : Adj
 para : Noun
 cinsinden : Noun
-yapılması : Noun
+yapılması : NInf
 bu : Det
 durumu : Noun
 değiştirmez : Verb
@@ -1533,7 +1533,7 @@ Doların : Noun
 hızla : Noun
 değer : Noun
 kaybetmesi : Noun
-Amerika'da : Noun
+Amerika'da : Prop
 ithal : Noun
 mallarını : Noun
 pahalılaştıracağından : Punc
@@ -1542,10 +1542,10 @@ iç : Adj
 talep : Noun
 daralmasıyla : Noun
 beraber : Adv
-Amerika'da : Noun
+Amerika'da : Prop
 enflasyonist : Noun
-baskıların : Punc
-artması : Noun
+baskıların : Noun
+artması : Punc
 söz : Noun
 konusu : Noun
 olabilecektir : Noun
@@ -1561,7 +1561,7 @@ kısa : Adj
 sürede : Noun
 ihracata : Noun
 kaymalarını : Punc
-beklemek : Noun
+beklemek : NInf
 ise : Conj
 çok : Adv
 gerçekçi : Noun
@@ -1575,10 +1575,10 @@ yıllarda : Noun
 dünya : Noun
 büyümesinin : Noun
 yüzde_90'ınından : Punc
-fazlasını : Noun
+fazlasını : Zero
 tek : Adj
 başına : Noun
-sağlayan : Adj
+sağlayan : APresPart
 Amerikan : Noun
 ekonomisindeki : Noun
 durgunluk : Punc
@@ -1598,17 +1598,17 @@ Amerikan : Noun
 ekonomisinin : Noun
 , : Punc
 enflasyonist : Noun
-baskılar : Noun
-tam : Adv
+baskılar : Punc
+tam : Adj
 olarak : Adv
-yok_olmasa : Noun
+yok_olmasa : Verb
 da : Conj
 , : Punc
 " : Punc
 yumuşak : Adj
 iniş : Noun
 " : Punc
-yapabileceği : Adj
+yapabileceği : AFutPart
 yönünde : Noun
 izlenimler : Noun
 güçleniyordu : Punc
@@ -1627,20 +1627,20 @@ inişi : Noun
 sertleştirebilecektir : Noun
 . : Punc
 
-Buna : Pron
+Buna : DemonsP
 karşılık : Noun
 , : Punc
 Japon : Noun
 Yeni : Adj
 hariç : Noun
 , : Punc
-Çin : Noun
+Çin : Prop
 başta_olmak : Noun
 üzere : Postp
-Asya : Noun
+Asya : Verb
 ülkelerinin : Noun
 bir : Det
-çoğu : Noun
+çoğu : Adj
 paralarını : Noun
 dolara : Noun
 karşı : Postp
@@ -1653,7 +1653,7 @@ Bu : Det
 gelişmelerden : Noun
 en : Adv
 çok : Adv
-etkilenecek : Noun
+etkilenecek : Verb
 ülkeler : Punc
 grubu : Noun
 ekonomileri : Noun
@@ -1665,7 +1665,7 @@ endeksli : Noun
 ülkelerdir : Punc
 . : Punc
 
-Türkiye'nin : Noun
+Türkiye'nin : Prop
 de : Conj
 zımni : Noun
 olarak : Adv
@@ -1702,10 +1702,10 @@ oynamadı : Noun
 önemli : Adj
 bir : Det
 bölümünün : Noun
-Avrupa : Noun
+Avrupa : Prop
 paraları : Noun
 cinsinden : Noun
-olması : Noun
+olması : NInf
 ve : Conj
 ithalatımızın : Noun
 da : Conj
@@ -1715,25 +1715,25 @@ bölümünün : Noun
 Amerikan : Noun
 doları : Punc
 üzerinden : Noun
-olması : Noun
+olması : NInf
 nedeniyle : Noun
 , : Punc
 doların : Noun
 değer : Noun
 kaybetmesi : Noun
-bizim : Pron
+bizim : PersP
 işimize_geliyor : Noun
 gibi : Postp
 görünüyor : Verb
 . : Punc
 
 Değeri : Noun
-düşen : Adj
+düşen : APresPart
 paradan : Noun
 ithalat : Noun
 yapıp : Adv
 değeri : Noun
-artan : Adj
+artan : APresPart
 bir : Det
 parayla : Noun
 ihracat : Noun
@@ -1780,7 +1780,7 @@ kalmayacaktır : Noun
 . : Punc
 
 Bağlılık : Noun
-ayrıştırması : Noun
+ayrıştırması : Punc
 , : Punc
 bir : Det
 tümce : Noun
@@ -1793,16 +1793,16 @@ saptayarak : Noun
 o : Det
 tümcenin : Noun
 çözümlemesini : Noun
-sağlayan : Adj
+sağlayan : APresPart
 yönteme : Noun
-verilen : Adj
+verilen : APresPart
 addır : Noun
 . : Punc
 
 Bir : Det
 tümcenin : Noun
 anlamının : Noun
-çıkarılması : Noun
+çıkarılması : NInf
 doğal : Adj
 dil : Noun
 işlemenin : Noun
@@ -1813,8 +1813,8 @@ içindedir : Noun
 
 Eğer : Conj
 tümcenin : Noun
-hedeflediği : Noun
-gerçek : Noun
+hedeflediği : Punc
+gerçek : Adj
 anlam : Noun
 çıkartılabilirse : Noun
 bu : Det
@@ -1833,7 +1833,7 @@ bulunabilir : Punc
 . : Punc
 
 Anlam : Noun
-çıkarılması : Noun
+çıkarılması : NInf
 için : Postp
 öncelikle : Noun
 tümcenin : Noun
@@ -1844,29 +1844,29 @@ gerekmektedir : Noun
 Bir : Det
 tümcenin : Noun
 çözümlemesi : Noun
-demek : Noun
-tümce : Noun
+demek : NInf
+tümce : Verb
 içinde : Noun
-bulunan : Adj
+bulunan : APresPart
 sözcüklerin : Noun
 görevlerinin : Noun
-belirlenmesi : Noun
-anlamındadır : Noun
+belirlenmesi : NInf
+anlamındadır : Verb
 . : Punc
 
 Çözümleme : Noun
-yöntemlerinden : Noun
+yöntemlerinden : Punc
 biri : Pron
 de : Conj
 bağlılık : Noun
-ayrıştırmasıdır : Noun
+ayrıştırmasıdır : Punc
 . : Punc
 
 Bu : Det
 nedenle : Noun
 , : Punc
 bağlılık : Noun
-ayrıştırması : Noun
+ayrıştırması : Punc
 doğal : Adj
 dil : Noun
 çalışmalarının : Noun
@@ -1886,11 +1886,11 @@ Türkçe'nin : Noun
 özel : Adj
 bir : Det
 durumunun : Noun
-olduğunu : Noun
-bilirler : Noun
+olduğunu : NPastPart
+bilirler : Verb
 . : Punc
 
-Türkçe : Noun
+Türkçe : Prop
 , : Punc
 bitişken : Noun
 bir : Det
@@ -1924,14 +1924,14 @@ ortalama : Adj
 3 : Noun
 - : Punc
 5 : Noun
-arasıdır : Noun
+arasıdır : Punc
 . : Punc
 
 Bir : Det
-Türkçe : Noun
+Türkçe : Prop
 sözcüğün : Noun
-kökünün : Punc
-bilinmesi : Noun
+kökünün : Noun
+bilinmesi : Punc
 , : Punc
 sözcüğün : Noun
 temel : Adj
@@ -1961,16 +1961,16 @@ kökünün : Noun
 elde_edilmesi : Punc
 ve : Conj
 eklerinin : Noun
-belirlenmesi : Noun
-önemlidir : Noun
+belirlenmesi : NInf
+önemlidir : Verb
 . : Punc
 
 Bir : Det
 sözcüğün : Noun
 kökünü : Noun
-bulmak : Noun
+bulmak : NInf
 için : Postp
-veritabanına : Noun
+veritabanına : Verb
 yerleştirilmiş : Adj
 bir : Det
 sözlükten : Noun
@@ -1978,8 +1978,8 @@ yararlanılabilir : Noun
 . : Punc
 
 Çam : Noun
-ağaçlarını : Noun
-taşıyan : Adj
+ağaçlarını : Punc
+taşıyan : APresPart
 kamyonlar : Noun
 , : Punc
 sıkışık : Adj
@@ -2005,7 +2005,7 @@ baktı : Verb
 
 Ama : Conj
 dayandığı : Noun
-direğin : Noun
+direğin : Punc
 lambası : Punc
 gözlerini : Noun
 kamaştırdığından : Noun
@@ -2024,7 +2024,7 @@ zaman : Noun
 sepetlerde : Noun
 , : Punc
 kovalarda : Noun
-satılan : Adj
+satılan : APresPart
 renk_renk : Noun
 çiçekleri : Noun
 gördü : Verb
@@ -2052,13 +2052,13 @@ söylendi : Verb
 Bir : Det
 süre : Noun
 sonra : Postp
-kamyonlar : Noun
+kamyonlar : Verb
 , : Punc
 birbirinden : Pron
 ayrılarak : Noun
 başka_başka : Punc
 yollara : Noun
-saptılar : Noun
+saptılar : Punc
 . : Punc
 
 Bir : Det
@@ -2066,41 +2066,41 @@ zamanlar : Noun
 , : Punc
 dalımda : Noun
 yuva : Noun
-yapan : Adj
+yapan : APresPart
 bir : Det
 serçe : Noun
 kuşu : Noun
 vardı : Verb
 . : Punc
 
-O : Pron
+O : PersP
 , : Punc
 kentte : Noun
 bulunmuş : Verb
 . : Punc
 
 Bütün : Adj
-bunları : Pron
-bana : Pron
-o : Pron
+bunları : DemonsP
+bana : PersP
+o : Det
 anlattı : Verb
 . : Punc
 
 Çam : Noun
 dalı : Noun
 , : Punc
-bunları : Pron
-söyledikten : Noun
+bunları : DemonsP
+söyledikten : NPastPart
 sonra : Postp
-susup : Noun
+susup : Verb
 içini : Noun
 çekti : Verb
 . : Punc
 
 Çam : Noun
-fidanı : Noun
+fidanı : Punc
 çok : Adv
-üzülmüştü : Noun
+üzülmüştü : Verb
 . : Punc
 
 Bu : Det
@@ -2114,29 +2114,29 @@ Dallara : Noun
 , : Punc
 fidanlara : Noun
 bakıp : Adv
-fiyatlarını : Noun
-öğrenmek : Noun
-istiyorlardı : Noun
+fiyatlarını : Verb
+öğrenmek : NInf
+istiyorlardı : Verb
 . : Punc
 
-Onları : Pron
+Onları : PersP
 ormandan : Noun
-getiren : Adj
+getiren : APresPart
 adamlar : Noun
 çamları : Noun
 övüyor : Punc
 , : Punc
 fiyatlarını : Noun
-söylüyorlardı : Noun
+söylüyorlardı : Punc
 . : Punc
 
 Dallar : Noun
 daha : Adv
-ucuzdu : Noun
+ucuzdu : Verb
 . : Punc
 
 Her : Det
-biri : Noun
+biri : Zero
 kentin : Noun
 değişik : Adj
 meydanlarına : Noun
@@ -2151,8 +2151,8 @@ satıldı : Noun
 . : Punc
 
 Çam : Noun
-fidanının : Noun
-bulunduğu : Adj
+fidanının : Punc
+bulunduğu : APastPart
 araba : Noun
 , : Punc
 kalabalık : Noun
@@ -2167,7 +2167,7 @@ Burada : Noun
 satıldığı : Punc
 geniş : Adj
 bir : Det
-alan : Adj
+alan : Noun
 vardı : Verb
 . : Punc
 
@@ -2175,17 +2175,17 @@ Arabadaki : Noun
 insanlar : Noun
 , : Punc
 çam : Noun
-dallarını : Noun
+dallarını : Punc
 ve : Conj
 fidanları : Noun
 buraya : Noun
 taşıyıp : Adv
-direklere : Noun
+direklere : Verb
 dayadılar : Punc
 . : Punc
 
 Çam : Noun
-fidanı : Noun
+fidanı : Punc
 çevresini : Punc
 merakla : Noun
 seyrediyordu : Verb
@@ -2197,20 +2197,20 @@ olmuştu : Verb
 . : Punc
 
 Çevredeki : Noun
-binalarda : Noun
+binalarda : Punc
 , : Punc
 direklerde : Noun
-renk_renk : Noun
+renk_renk : Punc
 ışıklar : Noun
 yanmıştı : Noun
 . : Punc
 
 Çam : Noun
-fidanını : Noun
+fidanını : Punc
 ve : Conj
-onu : Pron
+onu : PersP
 satın_alanları : Noun
-taşıyan : Adj
+taşıyan : APresPart
 araba : Noun
 , : Punc
 büyük : Adj
@@ -2223,7 +2223,7 @@ durdu : Verb
 Fidancık : Noun
 , : Punc
 üzüntüyle : Noun
-çevresine : Noun
+çevresine : Punc
 bakındı : Punc
 . : Punc
 
@@ -2242,7 +2242,7 @@ vardı : Verb
 Bir : Det
 masanın : Noun
 üstünden : Noun
-aldıkları : Adj
+aldıkları : APastPart
 süslerle : Noun
 çam : Noun
 fidanını : Punc
@@ -2268,7 +2268,7 @@ geldi : Verb
 . : Punc
 
 Kucağında : Noun
-renk_renk : Noun
+renk_renk : Punc
 yaldızlı : Punc
 kağıtlara : Noun
 sarılmış : Verb
@@ -2286,10 +2286,10 @@ binaydı : Noun
 . : Punc
 
 Binanın : Noun
-kapıcısı : Noun
+kapıcısı : Punc
 , : Punc
 çam : Noun
-fidanını : Noun
+fidanını : Punc
 yedinci : Punc
 kattaki : Noun
 bir : Det
@@ -2297,10 +2297,10 @@ daireye : Noun
 çıkardı : Verb
 . : Punc
 
-Onu : Pron
+Onu : PersP
 , : Punc
 salonda : Noun
-gösterilen : Adj
+gösterilen : APresPart
 yere : Noun
 koyarken : Noun
 bir : Det
@@ -2311,7 +2311,7 @@ içine : Noun
 çekti : Verb
 . : Punc
 
-O : Pron
+O : PersP
 da : Conj
 köyünü : Noun
 , : Punc
@@ -2323,25 +2323,25 @@ anlaşılan : Punc
 . : Punc
 
 Çam : Noun
-fidanı : Noun
+fidanı : Punc
 , : Punc
 süslü : Noun
-eşyalarla : Noun
+eşyalarla : Punc
 dolu : Adj
-olan : Adj
+olan : APresPart
 bu : Det
 salonda : Noun
 doğadan : Noun
 , : Punc
 topraktan : Noun
 iyice : Adv
-uzaklaşmıştı : Noun
+uzaklaşmıştı : Verb
 . : Punc
 
 Kapıcı : Noun
 , : Punc
 çam : Noun
-fidanını : Noun
+fidanını : Punc
 geniş : Adj
 bir : Det
 saksıya : Noun
@@ -2355,17 +2355,17 @@ toprağa : Noun
 kavuştuğu : Noun
 için : Postp
 hemen : Adv
-köklerini : Noun
+köklerini : Verb
 yaymak : Punc
 istedi : Verb
 . : Punc
 
 Ama : Conj
 kökleri : Noun
-saksının : Noun
+saksının : Punc
 kenarlarına : Noun
 çarpıp : Adv
-durmak : Noun
+durmak : Verb
 zorunda : Punc
 kaldılar : Noun
 . : Punc
@@ -2381,11 +2381,11 @@ varmış : Verb
 
 Bir : Det
 gün : Noun
-iki : Num
+iki : Card
 kız : Noun
 kardeşe : Noun
 sarayda : Punc
-verilecek : Adj
+verilecek : AFutPart
 bir : Det
 balo : Noun
 için : Postp
@@ -2393,7 +2393,7 @@ davetiye : Noun
 gelmiş : Verb
 . : Punc
 
-İkisi : Noun
+İkisi : Zero
 de : Conj
 heyecandan : Noun
 deliye_dönmüşler : Noun
@@ -2401,15 +2401,15 @@ deliye_dönmüşler : Noun
 
 Herkes : Noun
 Prens'in : Noun
-evlenmek : Noun
-istediğini : Noun
-biliyormuş : Noun
+evlenmek : NInf
+istediğini : NPastPart
+biliyormuş : Verb
 . : Punc
 
 ' : Punc
 Bakarsın : Noun
-ikimizden : Noun
-birini : Noun
+ikimizden : Punc
+birini : Zero
 seçer : Verb
 , : Punc
 belli : Adj
@@ -2418,61 +2418,61 @@ olur : Verb
 ? : Punc
 ' : Punc
 diye : Postp
-düşünmüşler : Noun
+düşünmüşler : Verb
 . : Punc
 
-İki : Num
+İki : Card
 kız : Noun
 kardeş : Noun
 de : Conj
-kendilerini : Pron
+kendilerini : ReflexP
 mümkün : Adj
 olduğunca : Noun
 güzelleştirmek : Noun
 için : Postp
 hemen : Adv
-kolları : Noun
+kolları : Verb
 sıvamışlar : Punc
 . : Punc
 
 Balo : Noun
-akşamı : Noun
+akşamı : Punc
 , : Punc
 üvey : Adj
 kardeşleri : Noun
-gittikten : Noun
+gittikten : NPastPart
 sonra : Postp
-Külkedisi : Noun
+Külkedisi : Verb
 mutfakta : Noun
 oturmuş : Verb
 ve : Conj
 için : Postp
 için : Postp
-ağlamaya_başlamış : Noun
+ağlamaya_başlamış : Verb
 . : Punc
 
 " : Punc
-Neyin : Pron
+Neyin : QuesP
 var : Verb
 , : Punc
-neden : Pron
-ağlıyorsun : Noun
+neden : QuesP
+ağlıyorsun : Verb
 Külkedisi : Punc
 ? : Punc
 " : Punc
 diye : Postp
-sormuş : Noun
+sormuş : Verb
 bir : Det
 kadın : Noun
 sesi : Noun
 . : Punc
 
 " : Punc
-Ben : Pron
+Ben : PersP
 de : Conj
 baloya : Noun
-gitmek : Noun
-istiyordum : Noun
+gitmek : NInf
+istiyordum : Verb
 " : Punc
 demiş : Verb
 hıçkırarak : Punc
@@ -2488,14 +2488,14 @@ ses : Noun
 . : Punc
 
 Külkedisi : Noun
-duyduğu : Noun
+duyduğu : Punc
 sese : Noun
 doğru : Postp
 dönüp : Adv
 bakmış : Verb
 , : Punc
 şaşkınlıktan : Noun
-donakalmış : Noun
+donakalmış : Punc
 . : Punc
 
 Annesi : Noun
@@ -2506,13 +2506,13 @@ evlenmiş : Verb
 . : Punc
 
 Oktay : Noun
-büzüldüğü : Noun
+büzüldüğü : Punc
 köşede : Noun
 dişleri : Noun
 birbirine : Pron
 çarpa : Noun
 çarpa : Punc
-onu : Pron
+onu : PersP
 seyrediyordu : Verb
 . : Punc
 
@@ -2529,7 +2529,7 @@ yatıyor : Noun
 
 Karagöz : Noun
 gibi : Postp
-ortaoyunu : Noun
+ortaoyunu : Verb
 da : Conj
 güldürmeyi : Noun
 ve : Conj
@@ -2546,7 +2546,7 @@ düşünceyi : Noun
 bir : Det
 duvar : Noun
 olarak : Adv
-düşünürsek : Noun
+düşünürsek : Verb
 bu : Det
 duvarın : Noun
 tuğlaları : Noun
@@ -2558,7 +2558,7 @@ düşüncelerdir : Noun
 Bir : Det
 yazarın : Noun
 sıkıntılarını : Noun
-ne : Pron
+ne : QuesP
 bilir : Verb
 okuyucu : Punc
 ! : Punc
@@ -2569,18 +2569,18 @@ dramlarında : Noun
 kişiler : Noun
 , : Punc
 durumlarına : Noun
-karşı_koymaz : Noun
+karşı_koymaz : Punc
 , : Punc
-onu : Pron
+onu : PersP
 değiştirmek : Noun
 için : Postp
-savaşmazlar : Noun
+savaşmazlar : Verb
 . : Punc
 
 Sanat : Noun
-eserinde : Noun
+eserinde : Punc
 yalnız : Adv
-hayattan : Noun
+hayattan : Verb
 alınmış : Verb
 öğeler : Punc
 kullanılmalıdır : Noun
@@ -2596,9 +2596,9 @@ yokmuş : Noun
 ve : Conj
 çocuk : Noun
 sahibi : Noun
-olmayı : Noun
+olmayı : NInf
 çok : Adv
-istiyorlarmış : Noun
+istiyorlarmış : Verb
 . : Punc
 
 Gel : Verb
@@ -2623,7 +2623,7 @@ güzel : Adj
 çiçekleri : Noun
 ve : Conj
 sebzeleri : Noun
-seyrederken : Noun
+seyrederken : Punc
 , : Punc
 kadının : Noun
 gözleri : Noun
@@ -2642,8 +2642,8 @@ annesi : Noun
 de : Conj
 ilk : Adj
 evliliğinden : Noun
-olan : Adj
-iki : Num
+olan : APresPart
+iki : Card
 kızıyla : Noun
 birlikte : Postp
 gelip : Adv
@@ -2651,10 +2651,10 @@ eve : Noun
 yerleşmiş : Noun
 . : Punc
 
-O : Pron
+O : PersP
 anda : Noun
 sanki : Adv
-büyülenmiş : Noun
+büyülenmiş : Verb
 ve : Conj
 o : Det
 marullardan : Noun
@@ -2674,16 +2674,16 @@ da : Conj
 ölürüm : Noun
 " : Punc
 demiş : Verb
-kendi : Pron
-kendine : Pron
+kendi : ReflexP
+kendine : ReflexP
 . : Punc
 
 Yemeden : Noun
-içmeden : Noun
+içmeden : Punc
 kesilmiş : Adj
 , : Punc
 zayıfladıkça : Noun
-zayıflamış : Noun
+zayıflamış : Punc
 . : Punc
 
 Sonunda : Adv
@@ -2695,7 +2695,7 @@ durumundan : Noun
 endişelenmiş : Punc
 , : Punc
 öylesine : Noun
-endişelenmiş : Noun
+endişelenmiş : Punc
 ki : Conj
 , : Punc
 tüm : Det
@@ -2721,7 +2721,7 @@ Ancak : Conj
 , : Punc
 o : Det
 bahçeye : Noun
-girmek : Noun
+girmek : NInf
 büyük : Adj
 cesaret : Noun
 istiyormuş : Verb
@@ -2736,7 +2736,7 @@ aitmiş : Noun
 
 Kadın : Noun
 kocasının : Noun
-getirdiği : Adj
+getirdiği : APastPart
 marulları : Noun
 afiyetle : Noun
 yemiş : Noun
@@ -2744,7 +2744,7 @@ ama : Conj
 bir : Det
 avuç : Noun
 yaprak : Noun
-ona : Pron
+ona : PersP
 yetmemiş : Noun
 . : Punc
 
@@ -2752,9 +2752,9 @@ Kocası : Noun
 ertesi : Adj
 günün : Noun
 akşamı : Noun
-çaresiz : Adj
+çaresiz : Zero
 tekrar : Adv
-bahçeye : Noun
+bahçeye : Verb
 girmiş : Verb
 . : Punc
 
@@ -2765,63 +2765,63 @@ cadı : Noun
 pusuya : Punc
 yatmış : Verb
 , : Punc
-onu : Pron
+onu : PersP
 bekliyormuş : Noun
 . : Punc
 
 " : Punc
 Bahçeme : Noun
 girip : Adv
-benim : Pron
+benim : PersP
 marullarımı : Noun
-çalmaya : Noun
+çalmaya : NInf
 nasıl : Adv
-cesaret_edersin : Noun
-sen : Pron
+cesaret_edersin : Verb
+sen : PersP
 ! : Punc
 " : Punc
 diye : Postp
-ciyaklamış : Noun
+ciyaklamış : Verb
 cadı : Punc
 . : Punc
 
 " : Punc
-Bunun : Pron
+Bunun : DemonsP
 hesabını : Noun
 vereceksin : Punc
 ! : Punc
 " : Punc
 
 Bu : Det
-iki : Num
+iki : Card
 kız : Noun
 , : Punc
 yeni : Adj
 kız : Noun
 kardeşlerinden : Noun
 hiç : Adv
-hoşlanmamış : Noun
+hoşlanmamış : Verb
 . : Punc
 
 Kadının : Noun
 kocası : Noun
-kendisini : Pron
+kendisini : ReflexP
 affetmesi : Noun
 için : Postp
-yalvarmış : Noun
+yalvarmış : Verb
 cadıya : Punc
 . : Punc
 
 Karısının : Noun
-bahçedeki : Noun
+bahçedeki : Punc
 marulları : Punc
 nasıl : Adv
-canının_çektiğini : Noun
+canının_çektiğini : Verb
 , : Punc
-onlar : Pron
+onlar : PersP
 yüzünden : Noun
 nasıl : Adv
-yemeden : Noun
+yemeden : Verb
 içmeden : Punc
 kesildiğini : Noun
 bir : Det
@@ -2830,7 +2830,7 @@ anlatmış : Verb
 . : Punc
 
 " : Punc
-O : Pron
+O : Det
 zaman : Noun
 , : Punc
 " : Punc
@@ -2839,15 +2839,15 @@ cadı : Punc
 sesini : Noun
 biraz : Adv
 daha : Adv
-alçaltarak : Noun
+alçaltarak : Verb
 , : Punc
 " : Punc
 alabilirsin : Noun
 , : Punc
 canı : Noun
-ne : Pron
+ne : QuesP
 kadar : Postp
-çekiyorsa : Noun
+çekiyorsa : Verb
 alabilirsin : Punc
 . : Punc
 
@@ -2859,8 +2859,8 @@ var : Verb
 bebeğiniz : Noun
 doğar : Verb
 doğmaz : Punc
-onu : Pron
-bana : Pron
+onu : PersP
+bana : PersP
 vereceksiniz : Noun
 . : Punc
 " : Punc
@@ -2889,24 +2889,24 @@ gün : Noun
 cadı : Noun
 gelip : Adv
 yeni : Adj
-doğan : Adj
+doğan : APresPart
 bebeği : Noun
 almış : Verb
 . : Punc
 
 Bebeğe : Noun
-Rapunzel : Noun
+Rapunzel : Punc
 adını : Noun
 vermiş : Verb
 . : Punc
 
 Çünkü : Conj
 annesinin : Noun
-ne : Pron
+ne : QuesP
 yapıp : Adv
 edip : Adv
 yemek : Noun
-istediği : Adj
+istediği : APastPart
 bahçedeki : Noun
 marul : Noun
 türünün : Noun
@@ -2916,21 +2916,21 @@ Rapunzel'miş : Noun
 . : Punc
 
 Rapunzel : Noun
-oniki : Num
+oniki : Card
 yaşına : Noun
 gelince : Adv
 , : Punc
 dünyalar : Noun
-güzeli : Noun
+güzeli : Punc
 bir : Det
 çocuk : Noun
 olmuş : Verb
 . : Punc
 
 Odasında : Noun
-ne : Pron
+ne : QuesP
 var : Verb
-ne : Pron
+ne : Conj
 yoksa : Verb
 tavan : Noun
 arasına : Noun
@@ -2955,7 +2955,7 @@ yüksek : Adj
 bir : Det
 kuleye : Noun
 yerleştirmiş : Noun
-onu : Pron
+onu : PersP
 . : Punc
 
 Bu : Det
@@ -2966,7 +2966,7 @@ yokmuş : Noun
 , : Punc
 sadece : Adv
 en : Adv
-tepesinde : Noun
+tepesinde : Verb
 küçük : Adj
 bir : Det
 penceresi : Noun
@@ -2974,7 +2974,7 @@ varmış : Verb
 . : Punc
 
 Cadı : Noun
-onu : Pron
+onu : PersP
 ziyarete_geldiğinde : Noun
 , : Punc
 aşağıdan : Noun
@@ -2990,7 +2990,7 @@ saçlarını : Noun
 ! : Punc
 " : Punc
 diye : Postp
-seslenirmiş : Noun
+seslenirmiş : Verb
 . : Punc
 
 Rapunzel : Noun
@@ -3002,7 +3002,7 @@ uzatır : Punc
 , : Punc
 cadı : Noun
 da : Conj
-onun : Pron
+onun : PersP
 saçlarına : Noun
 tutuna : Noun
 tutuna : Punc
@@ -3013,7 +3013,7 @@ tırmanırmış : Noun
 Bu : Det
 yıllarca : Adv
 böyle : Adv
-sürüp : Noun
+sürüp : Verb
 gitmiş : Verb
 . : Punc
 
@@ -3024,23 +3024,23 @@ kralın : Noun
 oğlu : Noun
 avlanmak : Noun
 için : Postp
-ormana : Noun
+ormana : Verb
 girmiş : Verb
 . : Punc
 
 Daha : Adv
 çok : Adv
-uzaktayken : Noun
+uzaktayken : Verb
 güzel : Adj
 sesli : Noun
 birinin : Pron
-söylediği : Adj
+söylediği : APastPart
 şarkıyı : Noun
 duymuş : Noun
 . : Punc
 
 Ormanda : Noun
-atını : Noun
+atını : Punc
 oradan : Noun
 oraya : Noun
 sürmüş : Noun
@@ -3056,10 +3056,10 @@ bakmış : Verb
 sola : Noun
 bakmış : Verb
 , : Punc
-ne : Pron
+ne : QuesP
 merdiven : Noun
 görmüş : Verb
-ne : Pron
+ne : Conj
 de : Conj
 yukarıya : Noun
 çıkılacak : Noun
@@ -3076,24 +3076,24 @@ kapılan : Punc
 Prens : Noun
 , : Punc
 cadının : Noun
-kuleye : Noun
+kuleye : Punc
 nasıl : Adv
-çıktığını : Noun
-görüp : Noun
+çıktığını : NPastPart
+görüp : Verb
 öğrenene : Punc
 kadar : Postp
-hergün : Noun
+hergün : Verb
 oraya : Noun
 uğrar_olmuş : Noun
 . : Punc
 
-Ona : Pron
+Ona : PersP
 bir : Det
 kardeş : Noun
 gibi : Postp
-davranmak : Noun
+davranmak : Verb
 şöyle : Adv
-dursun : Noun
+dursun : Verb
 , : Punc
 bütün : Adj
 ev : Noun
@@ -3122,7 +3122,7 @@ saçlarını : Noun
 ! : Punc
 " : Punc
 diye : Postp
-seslenirmiş : Noun
+seslenirmiş : Verb
 . : Punc
 
 Sonra : Adv
@@ -3145,20 +3145,20 @@ korkmuş : Verb
 o : Det
 güne : Noun
 kadar : Postp
-cadıdan : Noun
-başkası : Noun
+cadıdan : Verb
+başkası : Zero
 gelmemiş : Verb
 ziyaretine : Punc
 . : Punc
 
 Fakat : Conj
 prens : Noun
-onu : Pron
+onu : PersP
 şarkı_söylerken : Noun
 dinlediğini : Punc
 , : Punc
 sesine : Noun
-aşık_olduğunu : Noun
+aşık_olduğunu : Punc
 anlatınca : Punc
 korkusu : Noun
 yatışmış : Noun
@@ -3175,7 +3175,7 @@ kabul_etmiş : Verb
 , : Punc
 yüzü : Noun
 hafifçe : Adv
-kızararak : Noun
+kızararak : Verb
 . : Punc
 
 Ama : Conj
@@ -3191,7 +3191,7 @@ yokmuş : Noun
 Fakat : Conj
 maalesef : Adv
 bu : Det
-biraz : Adv
+biraz : Adj
 zormuş : Noun
 , : Punc
 çünkü : Conj
@@ -3200,7 +3200,7 @@ aksine : Adv
 bayağı : Adj
 çirkinmiş : Noun
 her : Det
-ikisi : Noun
+ikisi : Zero
 de : Conj
 ! : Punc
 
@@ -3224,7 +3224,7 @@ getirirse : Noun
 Rapunzel : Noun
 ' : Punc
 de : Conj
-bunları : Pron
+bunları : DemonsP
 birbirine : Pron
 ekleyerek : Noun
 bir : Det
@@ -3237,18 +3237,18 @@ Her : Det
 yolunda_gitmiş : Noun
 ve : Conj
 cadı : Noun
-olanları : Noun
+olanları : Zero
 hiç : Adv
-farketmemiş : Noun
+farketmemiş : Verb
 . : Punc
 
 Ev : Noun
 işleri : Noun
-bittikten : Noun
+bittikten : NPastPart
 sonra : Postp
 bile : Adv
 kızın : Noun
-onlarla : Pron
+onlarla : PersP
 oturmasına : Noun
 izin : Noun
 verilmiyormuş : Noun
@@ -3266,8 +3266,8 @@ da : Conj
 Anne : Noun
 , : Punc
 Prens : Noun
-neden : Pron
-senden : Pron
+neden : QuesP
+senden : PersP
 daha : Adv
 hızlı : Adj
 tırmanıyor : Noun
@@ -3281,52 +3281,52 @@ ortaya_çıkmış : Adj
 . : Punc
 
 " : Punc
-Seni : Pron
+Seni : PersP
 rezil : Noun
 kız : Noun
 ! : Punc
-Beni : Pron
+Beni : PersP
 nasıl : Adv
 da : Conj
 aldattın : Noun
 ! : Punc
-Ben : Pron
-seni : Pron
+Ben : PersP
+seni : PersP
 dünyanın : Noun
 kötülüklerinden : Noun
-korumaya : Noun
+korumaya : NInf
 çalışıyordum : Verb
 ! : Punc
 " : Punc
 diye : Postp
-bağırmaya : Noun
+bağırmaya : Verb
 başlamış : Verb
 cadı : Punc
 öfkeyle : Noun
 . : Punc
 
 Rapunzel'i : Noun
-tuttuğu : Adj
+tuttuğu : APastPart
 gibi : Postp
 saçlarını : Noun
 kesmiş : Noun
 ve : Conj
 sonra : Adv
 da : Conj
-onu : Pron
+onu : PersP
 çok : Adv
-uzaklara : Noun
+uzaklara : Zero
 bir : Det
 çöle : Noun
 göndermiş : Noun
 . : Punc
 
-O : Pron
+O : PersP
 gece : Noun
 cadı : Noun
 kalede : Punc
 kalıp : Noun
-Prensi : Noun
+Prensi : Punc
 beklemiş : Punc
 . : Punc
 
@@ -3344,21 +3344,21 @@ saçlarını : Noun
 ! : Punc
 " : Punc
 diye : Postp
-seslenince : Noun
+seslenince : Verb
 , : Punc
 cadı : Noun
-Rapunzel'den : Noun
+Rapunzel'den : Punc
 kestiği : Punc
 saç : Noun
-örgüsünü : Noun
+örgüsünü : Punc
 uzatmış : Punc
 aşağıya : Noun
 . : Punc
 
 Prens : Noun
 başına : Noun
-neler : Pron
-geleceğini : Noun
+neler : QuesP
+geleceğini : NFutPart
 bilmeden : Adv
 yukarıya : Noun
 tırmanmış : Noun
@@ -3366,7 +3366,7 @@ tırmanmış : Noun
 
 Prens : Noun
 kederinden : Noun
-kendini : Pron
+kendini : ReflexP
 pencereden : Noun
 atmış : Adj
 . : Punc
@@ -3377,10 +3377,10 @@ düşünce : Noun
 ölmemiş : Noun
 , : Punc
 yalnız : Adv
-kulenin : Noun
+kulenin : Verb
 dibindeki : Punc
 dikenler : Noun
-gözlerine : Noun
+gözlerine : Punc
 batmış : Punc
 . : Punc
 
@@ -3411,7 +3411,7 @@ Akşamları : Adv
 mutfakta : Noun
 , : Punc
 sönmekte : Noun
-olan : Adj
+olan : APresPart
 ocağın : Noun
 önünde : Noun
 duruyormuş : Noun
@@ -3422,7 +3422,7 @@ ellerini : Noun
 küllere : Noun
 doğru : Postp
 tutup : Adv
-ısınmaya : Noun
+ısınmaya : Verb
 çalışarak : Adv
 . : Punc
 
@@ -3431,7 +3431,7 @@ yüzden : Noun
 üvey : Adj
 kız : Noun
 kardeşleri : Noun
-ona : Pron
+ona : PersP
 " : Punc
 Külkedisi : Noun
 " : Punc
@@ -3442,13 +3442,13 @@ takmışlar : Noun
 Bu : Det
 makalede : Noun
 , : Punc
-Türkçe : Noun
+Türkçe : Prop
 cümlelerin : Noun
 kural : Noun
 tabanlı : Noun
 bağlılık : Punc
 analizi : Noun
-yöntemi : Noun
+yöntemi : Punc
 ile : Conj
 ayrıştırılmaları : Noun
 sonucunda : Noun
@@ -3458,47 +3458,47 @@ sunulmaktadır : Noun
 . : Punc
 
 Uygulanan : Noun
-ayrıştırma : Noun
+ayrıştırma : Punc
 algoritması : Punc
 ve : Conj
 kural : Noun
 yapıları : Noun
-detaylı : Adj
+detaylı : Zero
 olarak : Adv
-verilmiştir : Noun
+verilmiştir : Verb
 . : Punc
 
 Sonuçlar : Noun
-Türkçe'nin : Noun
+Türkçe'nin : Punc
 Bağlılık : Punc
 Analizi : Noun
 konusunda : Noun
-yapılacak : Adj
-çalışmalara : Noun
+yapılacak : AFutPart
+çalışmalara : NInf
 temel : Adj
-olma : Noun
-niteliğindedir : Noun
+olma : NInf
+niteliğindedir : Verb
 . : Punc
 
 Bitişken : Noun
 bir : Det
 dil : Noun
-olan : Adj
+olan : APresPart
 Türkçe'de : Noun
 , : Punc
 sözcüklerin : Noun
-sonlarına : Noun
+sonlarına : Punc
 ardarda : Adv
-ekler : Noun
+ekler : Verb
 konularak : Punc
-yüzlerce : Num
-farklı : Noun
+yüzlerce : Card
+farklı : Zero
 sözcük : Noun
 oluşturulabilir : Noun
 . : Punc
 
 Derlemde : Noun
-bağlılıklar : Noun
+bağlılıklar : Punc
 çekim : Noun
 grupları : Noun
 arasında : Noun
@@ -3508,18 +3508,18 @@ kurulmuştur : Noun
 Ayrıştırıcı : Noun
 her : Det
 adımında : Noun
-üç : Num
-farklı : Noun
+üç : Card
+farklı : Zero
 hareketten : Noun
-birini : Noun
-gerçekleştirir : Noun
+birini : Zero
+gerçekleştirir : Punc
 . : Punc
 
 Türkçe'de : Noun
 bir : Det
 sözcüğe : Noun
 ait : Postp
-biçimbirimsel : Noun
+biçimbirimsel : Verb
 özellikler : Punc
 büyük : Adj
 çoğunlukla : Noun
@@ -3530,7 +3530,7 @@ bir : Det
 çekim : Noun
 eki : Noun
 olarak : Adv
-yer_almaktadırlar : Noun
+yer_almaktadırlar : Verb
 . : Punc
 
 Ancak : Conj
@@ -3538,21 +3538,21 @@ bazı : Adj
 ekler : Noun
 sözcüğe : Noun
 ait : Postp
-biçimbirimsel : Noun
+biçimbirimsel : Verb
 özellik : Punc
 taşımalarına : Noun
 rağmen : Postp
-sözcükten : Noun
+sözcükten : Verb
 sonra : Postp
 ve : Conj
 sözcükten : Noun
 ayrı : Adj
 olarak : Adv
-yazılırlar : Noun
+yazılırlar : Verb
 ve : Conj
 kendilerinden : Noun
 önce : Postp
-gelen : Adj
+gelen : APresPart
 sözcüğe : Noun
 bağlanırlar : Noun
 . : Punc
@@ -3572,30 +3572,30 @@ yıla : Noun
 kadar : Postp
 , : Punc
 bağlılık : Noun
-analizi : Noun
+analizi : Punc
 yaklaşımlarında : Punc
-yapılan : Adj
+yapılan : APresPart
 genel : Adj
 varsayımlardan : Noun
 biri : Pron
 cümlelerin : Noun
 izdüşel : Punc
-olmayan : Adj
+olmayan : APresPart
 bağlılıklar : Noun
 içermeyeceği : Noun
 yönündedir : Punc
 . : Punc
 
-Buna : Pron
+Buna : DemonsP
 karşın : Postp
 , : Punc
-farklı : Noun
+farklı : Zero
 dillere : Noun
 ait : Postp
 birçok : Det
 derlemde : Noun
 izdüşel : Noun
-olmayan : Adj
+olmayan : APresPart
 cümlelere : Noun
 rastlanmaktadır : Noun
 . : Punc
@@ -3609,7 +3609,7 @@ tip : Noun
 cümleleri : Noun
 de : Conj
 içerecek : Noun
-yöntemler : Noun
+yöntemler : Punc
 üzerinde : Noun
 çalışılmaktadır : Noun
 . : Punc
@@ -3617,10 +3617,10 @@ yöntemler : Noun
 Bu : Det
 işlem : Noun
 sırasında : Noun
-kullanılan : Adj
+kullanılan : APresPart
 özelliklerin : Noun
-neler : Pron
-olduğu : Adj
+neler : QuesP
+olduğu : NPastPart
 ilerde : Noun
 anlatılmaktadır : Noun
 . : Punc
@@ -3631,7 +3631,7 @@ bir : Det
 cümlenin : Noun
 bağlılık : Noun
 ağacını : Punc
-oluşturmak : Noun
+oluşturmak : NInf
 amacıyla : Noun
 olası : Adj
 bütün : Adj
@@ -3639,30 +3639,30 @@ bağlılık : Noun
 kombinasyonları : Noun
 içerisinden : Punc
 optimum : Noun
-olanı : Noun
-bulmaya : Noun
-çalışır : Noun
+olanı : Zero
+bulmaya : NInf
+çalışır : Verb
 . : Punc
 
 Bozşahin : Noun
-çalışmasında : Noun
+çalışmasında : Punc
 Türkçe'nin : Punc
 bu : Det
 yapısını : Noun
-detaylı : Adj
+detaylı : Zero
 olarak : Adv
-incelemiştir : Noun
+incelemiştir : Verb
 . : Punc
 
 Ayrıştırma : Noun
-algoritmaları : Noun
+algoritmaları : Punc
 , : Punc
 en : Adv
 iyi : Adj
 ağacı : Noun
-oluşturmak : Noun
+oluşturmak : NInf
 üzere : Postp
-ayrıştırma : Noun
+ayrıştırma : Verb
 modelinden : Punc
 faydalanırlar : Noun
 . : Punc
@@ -3672,10 +3672,10 @@ yıllara : Noun
 kadar : Postp
 , : Punc
 özellikle : Adv
-istatistiksel : Noun
+istatistiksel : Verb
 ayrıştırma : Punc
 alanında : Noun
-birinci : Num
+birinci : Ord
 bölümde : Noun
 çeşitli : Adj
 dinamik : Noun
@@ -3688,36 +3688,36 @@ Bu : Det
 algoritmalar : Noun
 ayrıştırma : Noun
 modelinin : Punc
-kendilerine : Pron
-verdikleri : Adj
+kendilerine : ReflexP
+verdikleri : APastPart
 ikili : Noun
 bağlılık : Noun
 olasılıklarını : Punc
 kullanarak : Noun
 , : Punc
 arama : Noun
-uzayında : Noun
-yer_alan : Adj
+uzayında : Punc
+yer_alan : APresPart
 en : Adv
 yüksek : Adj
 olasılıklı : Noun
 ayrıştırma : Noun
 ağacını : Punc
-bulmaya : Noun
-çalışırlar : Noun
+bulmaya : NInf
+çalışırlar : Verb
 . : Punc
 
 Bu : Det
 yöntemden : Noun
 tamamen : Adv
 farklı : Adj
-olan : Adj
+olan : APresPart
 bir : Det
 başka : Adj
 yaklaşım : Noun
 da : Conj
 gerekirci : Noun
-ayrıştırma : Noun
+ayrıştırma : Punc
 algoritmaları : Punc
 kullanmaktır : Noun
 . : Punc
@@ -3732,7 +3732,7 @@ raporlanmıştır : Noun
 . : Punc
 
 Gerekirci : Noun
-ayrıştırma : Noun
+ayrıştırma : Punc
 algoritmaları : Punc
 , : Punc
 ayrıştırıcının : Noun
@@ -3741,8 +3741,8 @@ adımında : Noun
 bir : Det
 sonraki : Adj
 hareketin : Noun
-ne : Pron
-olacağına : Noun
+ne : QuesP
+olacağına : Verb
 ayrıştırma : Punc
 modeli : Noun
 yardımıyla : Noun
@@ -3758,7 +3758,7 @@ bir : Det
 makine : Noun
 öğrenimi : Noun
 sınıflandırıcısı : Punc
-olabileceği : Noun
+olabileceği : NFutPart
 gibi : Postp
 kural : Noun
 tabanlı : Noun
@@ -3770,25 +3770,25 @@ olabilir : Verb
 
 Aşağıdaki : Adj
 bölümlerde : Noun
-kullanılan : Adj
+kullanılan : APresPart
 gerekirci : Noun
 ayrıştırma : Noun
 algoritması : Punc
 ve : Conj
 modeli : Noun
-verilmektedir : Noun
+verilmektedir : Punc
 . : Punc
 
 Bu : Det
 algoritmalar : Noun
 genelde : Adv
-cümleyi : Noun
+cümleyi : Verb
 soldan_sağa : Punc
 doğru : Postp
 , : Punc
-iki : Num
-farklı : Noun
-veri : Noun
+iki : Card
+farklı : Zero
+veri : Punc
 yapısından : Noun
 faydalanarak : Noun
 ayrıştırırlar : Punc
@@ -3810,9 +3810,9 @@ sözcükler : Noun
 sonlarına : Noun
 eklenen : Punc
 eklerle : Noun
-farklı : Adj
+farklı : Zero
 tipte : Noun
-sözcüklere : Noun
+sözcüklere : Punc
 dönüşebilirler : Punc
 . : Punc
 
@@ -3821,7 +3821,7 @@ nedenle : Noun
 yığında : Noun
 ve : Conj
 kuyrukta : Noun
-tutulan : Noun
+tutulan : Punc
 elemanlar : Punc
 sözcükler : Noun
 değil : Verb
@@ -3833,8 +3833,8 @@ Bağlılıkları : Noun
 sadece : Adv
 sözcükler : Noun
 arasında : Noun
-göstermek : Noun
-ayrıştırma : Noun
+göstermek : NInf
+ayrıştırma : Verb
 işlemi : Noun
 için : Postp
 yeterince : Adv
@@ -3844,13 +3844,13 @@ taşımamaktadır : Noun
 . : Punc
 
 Sözcüklerin : Noun
-kökleri : Noun
+kökleri : Punc
 ve : Conj
 biçimbirimsel : Noun
-çözümlemeleri : Noun
+çözümlemeleri : Punc
 sözcüklerin : Punc
 aşağısında : Noun
-verilmektedir : Noun
+verilmektedir : Punc
 . : Punc
 
 Bu : Det
@@ -3858,10 +3858,10 @@ durum : Noun
 sıfatların : Noun
 genel : Adj
 olarak : Adv
-isimlere : Noun
+isimlere : Verb
 bağlanması : Punc
 kuralından : Noun
-ötürüdür : Noun
+ötürüdür : Punc
 . : Punc
 
 Özellikle : Adv
@@ -3872,7 +3872,7 @@ bir : Det
 derlemden : Noun
 otomatik : Noun
 olarak : Adv
-çekildiği : Noun
+çekildiği : Verb
 yöntemlerde : Punc
 bu : Det
 tip : Noun
@@ -3903,7 +3903,7 @@ ilgili : Noun
 sözcük : Noun
 bölümüne : Noun
 ait : Postp
-biçimbirimsel : Noun
+biçimbirimsel : Verb
 bilgiyi : Noun
 barındırır : Noun
 . : Punc
