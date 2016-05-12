@@ -98,8 +98,8 @@ if __name__ == "__main__":
 
 	tot_doc_count = 0
 	author_list = []
-	for author_dir in os.listdir(args.training_path):
-		auth = read_documents(args.training_path + author_dir)
+	for author_dir in os.listdir(os.path.normpath(args.training_path)):
+		auth = read_documents(args.training_path + "/" + author_dir)
 		tot_doc_count += auth.doc_count
 		author_list.append(auth)
 
