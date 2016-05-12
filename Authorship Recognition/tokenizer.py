@@ -8,10 +8,14 @@ setlocale(LC_ALL, 'tr_TR.UTF-8')
 # Uses an regex in  order to match all tokens of given text. 
 # Before tokenization, text is converted to lower case.
 def tokenize(text):
-	if version_info >= (3,0):
-		text = text.lower()												# Lowers the all characters.
-	else:	
-		text = text.decode("utf8").lower().encode("utf8")				# In python2, it is needed to decode UTF-8 characters in order to lower them.
+
+	# Seems to be not working.
+	# if version_info >= (3,0):
+		# text = text.lower()												# Lowers the all characters.
+	# else:	
+	# 	text = text.decode("utf8").lower().encode("utf8")				# In python2, it is needed to decode UTF-8 characters in order to lower them.
+
+	text = text.lower()													# Lowers the all characters.
 
 	text = sub("['’`][\wçğıöşü]+(?=[^\wçğıöşü'’`])","",text)			# removes additions with apostrophe(',’,`) mark. Ex. İstanbul('un)
 	text = sub("-","",text)												# removes '-' marks.

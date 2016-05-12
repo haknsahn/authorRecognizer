@@ -77,6 +77,7 @@ if __name__ == "__main__":
 		# 	postags[tag].addWord(lemma)
 
 	for tag, postag in postags.items():									# all statistics related to a postag object are computed.
+		print(tag + " : " + str(len(postag.words)) )
 		postag.computeStats()
 
 	model = {}																			# a dictionary is constructed

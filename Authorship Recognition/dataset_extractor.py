@@ -17,6 +17,10 @@ def dataset_extractor(src_path, training_dest_path, test_dest_path):
 	# Iterates over all directories in the given path of the dataset.
 	for author_dir in os.listdir(src_path):
 
+		# If there is a file, pass it.
+		if not os.path.isdir(src_path + author_dir):
+			continue
+
 		article_list = os.listdir(src_path + author_dir) 		# Stores all article names of an author into a list.
 		article_number = len(article_list)
 		training_article_number = int(article_number * 0.6)		# Computes how many of the articles will be selected as training data.
