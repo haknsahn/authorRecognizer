@@ -53,7 +53,7 @@ def construct_vocabulary(author_list):
 	return vocabulary
 
 # Performs 'Naive Bayes' in order to determine which author has written the given text.
-def determine_author(text, author_list, vocabulary, tot_doc_count):
+def determine_author(text, author_list, vocabulary, tot_doc_count, use_extrafuture):
 	auth_res = {}
 	doc = document("","",text)
 	doc.count_sentence()
@@ -66,10 +66,11 @@ def determine_author(text, author_list, vocabulary, tot_doc_count):
 		for token, count in bow.items():
 			token_pos = log((auth.vocabulary.get(token,0) + alpha) / (auth.tot_token_count + alpha * len(vocabulary)))
 			auth_res[auth.name] += token_pos * count
-		auth_res[auth.name] += abs(auth.ave_words_in_sentence - doc.ave_words_in_sentence) * word_coef
-		auth_res[auth.name] += abs(auth.ave_sentence_count - doc.sentence_count) * sentence_coef
-		auth_res[auth.name] += abs(auth.ave_quatation_mark - doc.quatation_mark_count) * quatation_coef
-		auth_res[auth.name] += abs(auth.ave_exclamation_mark - doc.exclamation_mark_count) * exclamation_coef
+		if use_extrafuture :
+			auth_res[auth.name] += abs(auth.ave_words_in_sentence - doc.ave_words_in_sentence) * word_coef
+			auth_res[auth.name] += abs(auth.ave_sentence_count - doc.sentence_count) * sentence_coef
+			auth_res[auth.name] += abs(auth.ave_quatation_mark - doc.quatation_mark_count) * quatation_coef
+			auth_res[auth.name] += abs(auth.ave_exclamation_mark - doc.exclamation_mark_count) * exclamation_coef
 
 	return sorted(auth_res, key=auth_res.get,reverse=True)[0]
 
@@ -88,6 +89,7 @@ if __name__ == "__main__":
 	parser.add_argument('-r','--result', action="store_false", default="True", help="Prints the result of the recognizer.",required=False)
 	parser.add_argument('-c','--comparison', action="store_true", help="Prints the result of the recognizer with author of the document. (If parent directories of the articles are named as authors' names, it gives rational results. If this is in process, then not prints the results.)",required=False)
 	parser.add_argument('-ns','--nostatistics', action="store_false", help="Does not print the statistics about recognition process.", required=False)
+	parser.add_argument('-ex','--extrafuture', action="store_true", help="Uses extra future.", required=False)
 	parser.add_argument('training_path', nargs="?", default="training_dataset/", metavar='/path/to/training/set', help='Path to training dataset.')
 	parser.add_argument('test_path', nargs="?", default="test_dataset/", metavar='/path/to/test/set', help='Path to test dataset.')
 	args = parser.parse_args()
@@ -121,7 +123,7 @@ if __name__ == "__main__":
 		if doc_path.endswith('.txt'):
 			doc_text = open(doc_path,'r').read()
 			author_name = os.path.basename(os.path.dirname(doc_path))
-			determined_author_name = determine_author(doc_text, author_list, vocabulary, tot_doc_count)
+			determined_author_name = determine_author(doc_text, author_list, vocabulary, tot_doc_count, args.extrafuture)
 
 			if args.result and not args.comparison:
 				print("%-50s : %s%s%s" %(doc_path, HEADER, determined_author_name, ENDC))
